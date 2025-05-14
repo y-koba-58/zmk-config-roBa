@@ -59,6 +59,12 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        behavior_mouse_key_press: behavior_mouse_key_press {
+            compatible = "zmk,behavior-mouse-key-press";
+            label = "BEHAVIOR_MOUSE_KEY_PRESS";
+            #binding-cells = <1>;
+        };
     };
 
     keymap {
